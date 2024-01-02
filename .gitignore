@@ -53,6 +53,7 @@ dkms.conf
 *-main.c
 1-left
 2-right
+3-del
 0-node
 4-leaf
 6-pre
