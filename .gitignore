@@ -56,5 +56,7 @@ dkms.conf
 3-del
 0-node
 4-leaf
+5-root
 6-pre
+8-post
 10-depth
