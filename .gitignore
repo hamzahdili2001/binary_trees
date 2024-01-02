@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 *-main.c
+1-left
 2-right
 0-node
 4-leaf
