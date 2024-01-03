@@ -74,6 +74,8 @@ dkms.conf
 16-perfect
 17-sibling
 18-uncle
-12-leaves
 100-ancestor
+101-lvl
+102-complete
+103-rotl
 104-rotr

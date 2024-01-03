@@ -43,4 +43,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 int binary_tree_is_complete(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+void binary_tree_print_level(
+	const binary_tree_t *tree, void (*func)(int), size_t level);
 #endif /* _BINART_TREE_H_ */
