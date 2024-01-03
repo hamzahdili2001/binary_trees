@@ -76,3 +76,6 @@ dkms.conf
 18-uncle
 100-ancestor
 101-lvl
+102-complete
+103-rotl
+104-rotr
