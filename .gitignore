@@ -79,10 +79,7 @@ dkms.conf
 102-complete
 103-rotl
 104-rotr
-<<<<<<< HEAD
 111-bst_insert
 112-bst_array
 113-bst_search
-=======
->>>>>>> 9348a439292edeed30d4eada349b6995ef0e0b7d
 110-is_bst
