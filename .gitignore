@@ -79,6 +79,10 @@ dkms.conf
 102-complete
 103-rotl
 104-rotr
+<<<<<<< HEAD
 111-bst_insert
 112-bst_array
 113-bst_search
+=======
+110-is_bst
+>>>>>>> 9348a43 ([task-110] a function that checks if a binary tree is a valid Binary Search Tree)
