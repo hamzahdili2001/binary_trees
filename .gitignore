@@ -80,3 +80,5 @@ dkms.conf
 103-rotl
 104-rotr
 111-bst_insert
+112-bst_array
+113-bst_search
