@@ -19,6 +19,7 @@ struct binary_tree_s
 };
 
 typedef struct binary_tree_s binary_tree_t;
+typedef struct binary_tree_s bst_t;
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *tree);
@@ -46,5 +47,7 @@ binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_print_level(const binary_tree_t *tree, void (*func)(int), size_t level);
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+int binary_tree_is_bst(const binary_tree_t *tree);
+int binary_tree_is_bst_util(const binary_tree_t *tree, binary_tree_t *node);
 
 #endif /* _BINART_TREE_H_ */
