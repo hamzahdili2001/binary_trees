@@ -51,4 +51,6 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_print_level(
 	const binary_tree_t *tree, void (*func)(int), size_t level);
 bst_t *bst_insert(bst_t **tree, int value);
+bst_t *bst_search(const bst_t *tree, int value);
+bst_t *array_to_bst(int *array, size_t size);
 #endif /* _BINART_TREE_H_ */
